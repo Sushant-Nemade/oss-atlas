@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:"OSS Atlas — Open-source command center",description:"Audit your GitHub portfolio, find repository health gaps, and build an actionable roadmap."};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}

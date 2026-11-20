@@ -39,7 +39,7 @@ The score is the equally weighted average of four ratios across non-fork, non-ar
 ## Architecture
 Next.js App Router UI → `/api/atlas/[username]` → GitHub public profile and repositories API → pure TypeScript analyzer → cached JSON. The app is stateless and stores no profile data.
 
-## Roadmap
+## Deployment\n\nSee [DEPLOYMENT.md](DEPLOYMENT.md) for Vercel, Docker, and generic Node hosting instructions.\n\n## Roadmap
 - [ ] Optional side-by-side profile comparison.
 - [ ] Contribution activity timeline with API coverage notes.
 - [ ] Configurable scoring weights and custom audit rules.
